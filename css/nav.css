@@ -1,5 +1,5 @@
 .navbar{
-    width: 75%;
+    width: var(--principalWidth);
     margin: var(--margin);
     background-color: var(--lightColor2);
     border-radius: var(--principalBorderRadius);
@@ -41,4 +41,20 @@
     font-size: 25px;
     color: var(--principalTextColor);
     margin: 0 10px;
+}
+
+@media screen and (max-width:1123px) {
+    .navbar{
+        width: var(--responsiveWidth1);
+    } 
+}
+
+@media screen and (max-width:767px) {
+    .navbar ul{
+        flex-wrap: wrap;
+    }
+
+    .navbar li{
+        display: block;
+    }
 }

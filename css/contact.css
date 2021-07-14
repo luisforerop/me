@@ -1,5 +1,5 @@
 .contact{
-    width: 75%;
+    width: var(--principalWidth);
     margin: var(--margin);
 }
 
@@ -8,4 +8,10 @@
     background-color: var(--lightColor2);
     border-radius: var(--principalBorderRadius);
     padding: 30px;
+}
+
+@media screen and (max-width:1123px) {
+    .contact{
+        width: var(--responsiveWidth1);
+    } 
 }

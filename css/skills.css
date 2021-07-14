@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 75%;
+    width: var(--principalWidth);
     margin: var(--margin); 
     /*border-radius: var(--principalBorderRadius);*/
     /*padding: var(--gap);*/
@@ -57,12 +57,71 @@
 }
 
 .info__card--skillsIcon img{
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     margin: var(--gap);
     border-radius: 50%;    
 }
 
 .pending{
     opacity: 0.3;
+}
+
+@media screen and (max-width:1123px) {
+    .skills{
+        width: var(--responsiveWidth1);
+    } 
+
+    .info__card--skillsIcon img{
+        width: 7vw;
+        height: 7vw;
+        margin: var(--gap);
+        border-radius: 50%;    
+    }
+}
+
+@media screen and (max-width:767px) {
+    .skills{
+        width: var(--responsiveWidth1);
+    } 
+
+    .info__card--skillsIcon img{
+        width: 7vw;
+        height: 7vw;
+        margin: var(--gap);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .info{
+        flex-wrap: wrap;
+    } 
+
+    .info__card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info__card--skillsIcon img{
+        width: 80px;
+        height: 80px;  
+    }
+}
+
+@media screen and (max-width:350px) {
+    /*Implementar un carrusel*/
+
+    .info{
+        flex-wrap: wrap;
+    } 
+
+    .info__card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info__card--skillsIcon img{
+        width: 100px;
+        height: 100px;  
+    }
 }

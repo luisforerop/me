@@ -1,5 +1,5 @@
 .footer{
-    width: 75%;
+    width: var(--principalWidth);
     margin: var(--margin);
     background-color: var(--secondaryTextColor);
     border-radius: var(--principalBorderRadius);
@@ -18,4 +18,10 @@
 
 .footerLight{
     color: var(--lightColor1);
+}
+
+@media screen and (max-width:1123px) {
+    .footer{
+        width: var(--responsiveWidth1);
+    } 
 }

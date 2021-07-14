@@ -11,6 +11,8 @@
     --gap: 25px;
     --margin: 25px auto 20px auto;
     --principalBorderRadius: 20px;
+    --principalWidth: 980px;
+    --responsiveWidth1: 87%;
 }
 
 
