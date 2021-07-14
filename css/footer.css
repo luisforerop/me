@@ -1,0 +1,21 @@
+.footer{
+    width: 75%;
+    margin: var(--margin);
+    background-color: var(--secondaryTextColor);
+    border-radius: var(--principalBorderRadius);
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h4{
+    margin-bottom: 15px;
+}
+
+.footer a/*, .footer a:link, .footer a:visited*/{
+    text-decoration: none;
+    color: var(--lightColor1);
+}
+
+.footerLight{
+    color: var(--lightColor1);
+}

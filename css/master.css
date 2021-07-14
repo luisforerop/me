@@ -1,0 +1,46 @@
+:root{
+    /*=== COLORS ===*/
+    /*--colorShadow: rgb(150, 150, 150);*/
+    --lightColor1: rgb(242,242,242);
+    --lightColor2: rgb(255, 255, 255);
+    --principalTextColor: rgb(79,79,79);
+    --secondaryTextColor: rgb(130,130,130);
+    --softBackground: rgba(255, 255, 255, .8);
+    
+    /*=== MEASURES ===*/
+    --gap: 25px;
+    --margin: 25px auto 20px auto;
+    --principalBorderRadius: 20px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    background-color: var(--lightColor1);
+}
+
+.principal-title{
+    color: var(--principalTextColor);
+    font-size: 21px;
+}
+
+.secondary-title{
+    color: var(--secondaryTextColor);
+    font-size: 19px;
+}
+
+.principal-text{
+    color: var(--secondaryTextColor);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.heart{
+    color: red;
+}

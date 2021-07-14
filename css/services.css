@@ -1,0 +1,60 @@
+:root{
+    --darkColor: rgb(19, 16, 16);
+    --darkColorFont: rgb(99,103,121)
+}
+
+
+/*=== GRID ===*/
+
+.services{
+    width: 75%;
+    margin: var(--margin);
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-template-rows: repeat(2, 260px);
+    justify-content: center;
+}
+
+
+
+.comment:nth-child(2){
+    grid-column: 2/4;
+    background-color: brown;
+}
+
+.comment:nth-child(3){
+    grid-column-start: 4;
+    background-color: goldenrod;
+}
+
+.comment:nth-child(4){
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: goldenrod;
+}
+
+.comment:nth-child(5){
+    grid-column: 3/5;
+    background-color: brown;
+}
+
+
+/*=== STYLES ===*/
+
+.comment{
+    border-radius: 15px;
+}
+
+.comment__userInfo img{
+    height: 37px;
+    width: 37px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+
+

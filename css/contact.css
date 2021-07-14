@@ -1,0 +1,11 @@
+.contact{
+    width: 75%;
+    margin: var(--margin);
+}
+
+.contact__title{
+    width: 100%;
+    background-color: var(--lightColor2);
+    border-radius: var(--principalBorderRadius);
+    padding: 30px;
+}

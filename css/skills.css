@@ -1,0 +1,68 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: var(--margin); 
+    /*border-radius: var(--principalBorderRadius);*/
+    /*padding: var(--gap);*/
+}
+
+.skills__title{
+    background-color: var(--lightColor2);
+    border-radius: var(--principalBorderRadius);
+    width: 100%;
+    padding: 30px;
+}
+
+.skills__title h2{
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    /*padding: var(--gap);*/
+    /*background-color: goldenrod;*/
+}
+
+.info__card{
+    background-color: var(--lightColor2);
+    border-radius: var(--principalBorderRadius);
+    padding: var(--gap);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 49.2%;
+}
+
+.info__card--title{
+    background-color: var(--lightColor2);
+    padding: 10px;
+    width: 100%;
+    /*text-align: justify;*/
+    /*border-radius: 10px;*/
+}
+
+
+.info__card--skillsIcon{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.info__card--skillsIcon img{
+    width: 120px;
+    height: 120px;
+    margin: var(--gap);
+    border-radius: 50%;    
+}
+
+.pending{
+    opacity: 0.3;
+}
